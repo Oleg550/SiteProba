@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Академічна підтримка: консультації, структура, редагування, розрахунки, оформлення та презентації.">
+  <title>Здав — забув | Академічна підтримка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="#top"><span>Здав</span> — забув</a>
+    <nav class="desktop-nav">
+      <a href="#services">Послуги</a><a href="#calculator">Ціни</a><a href="#process">Як працюємо</a><a href="#examples">Приклади</a><a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-small" href="#calculator">Розрахувати вартість</a>
+    <button class="menu-btn" aria-label="Меню">☰</button>
+  </div>
+  <div class="mobile-nav">
+    <a href="#services">Послуги</a><a href="#calculator">Ціни</a><a href="#process">Як працюємо</a><a href="#examples">Приклади</a><a href="#faq">FAQ</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">● Професійна академічна підтримка</div>
+      <h1>Академічна допомога,<br><span>коли дедлайн вже близько</span></h1>
+      <p class="lead">Допоможемо зі структурою, дослідженням, розрахунками, оформленням, редагуванням та презентацією матеріалів.</p>
+      <div class="checks"><span>✓ Перевірка перед здачею</span><span>✓ Чіткі терміни</span><span>✓ Конфіденційність</span><span>✓ Правки</span></div>
+      <div class="hero-actions"><a class="btn" href="#calculator">Розрахувати вартість →</a><a class="btn btn-ghost" href="#process">Як це працює</a></div>
+    </div>
+    <div class="hero-card">
+      <div class="mock-window">
+        <div class="mock-top"><i></i><i></i><i></i></div>
+        <div class="mock-body">
+          <div class="mini-label">Попередній розрахунок</div>
+          <h3>Магістерський проєкт</h3>
+          <div class="mock-line"><span>Обсяг</span><b>75 сторінок</b></div>
+          <div class="mock-line"><span>Термін</span><b>21 день</b></div>
+          <div class="mock-line"><span>Напрям</span><b>Менеджмент</b></div>
+          <div class="mock-price">від <strong>6 900 ₴</strong></div>
+          <a href="#calculator" class="mock-button">Розрахувати свою вартість</a>
+        </div>
+      </div>
+      <div class="float-card float-one"><b>✓ 100%</b><small>вчасно завершено</small></div>
+      <div class="float-card float-two"><b>40+</b><small>напрямів</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow">ПОСЛУГИ</div><h2>З чим можемо допомогти</h2></div><p>Від коротких навчальних матеріалів до комплексної підтримки великих академічних проєктів.</p></div>
+    <div class="service-grid">
+      <article class="service-card"><div class="icon">📝</div><h3>Есе / реферат / доповідь</h3><p>Короткі навчальні матеріали за заданою темою та вимогами.</p><div><b>від 300 ₴</b><span>1–5 днів</span></div></article>
+      <article class="service-card"><div class="icon">📘</div><h3>Курсова робота</h3><p>Структура, джерела, аналітична та практична частини.</p><div><b>900–2 000 ₴</b><span>5–14 днів</span></div></article>
+      <article class="service-card featured"><div class="tag">ПОПУЛЯРНЕ</div><div class="icon">🎓</div><h3>Бакалаврська / дипломна</h3><p>Комплексна підтримка за затвердженим завданням і методичкою.</p><div><b>від 3 500 ₴</b><span>14–30 днів</span></div></article>
+      <article class="service-card"><div class="icon">🏛️</div><h3>Магістерська робота</h3><p>Аналітика, практична частина, оформлення та матеріали до захисту.</p><div><b>від 4 000 ₴</b><span>20–40 днів</span></div></article>
+      <article class="service-card"><div class="icon">📊</div><h3>Стаття / тези / бізнес-план</h3><p>Аналітичні та прикладні матеріали різного обсягу й складності.</p><div><b>від 500 ₴</b><span>2–10 днів</span></div></article>
+      <article class="service-card"><div class="icon">📚</div><h3>Дисертаційний проєкт</h3><p>Індивідуальна оцінка великого дослідницького проєкту.</p><div><b>від 20 000 ₴</b><span>індивідуально</span></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section calc-section" id="calculator">
+  <div class="container">
+    <div class="center-head"><div class="eyebrow">КАЛЬКУЛЯТОР</div><h2>Розрахуйте попередню вартість</h2><p>Займе менше хвилини. Остаточна ціна підтверджується після перегляду вимог.</p></div>
+    <div class="calculator">
+      <form id="calcForm" class="calc-form">
+        <label>Тип роботи<select id="workType">
+          <option value="essay">Есе</option><option value="abstract">Реферат</option><option value="theses">Тези</option><option value="report">Доповідь</option>
+          <option value="article">Стаття</option><option value="presentation">Презентація</option><option value="business">Бізнес-план</option><option value="practical">Практична робота</option>
+          <option value="annotation">Анотація</option><option value="explanatory">Пояснювальна записка</option><option value="course" selected>Курсова робота</option>
+          <option value="bachelor">Бакалаврська робота</option><option value="diploma">Дипломна робота</option><option value="master">Магістерська робота</option><option value="dissertation">Дисертація</option>
+        </select></label>
+        <label>Предмет / напрям<select id="field">
+          <option value="1.00">Економіка</option><option value="1.05">Менеджмент</option><option value="1.05">Маркетинг</option><option value="1.05">Фінанси</option><option value="1.05">Банківська справа</option>
+          <option value="1.05">Облік і оподаткування</option><option value="1.05">Підприємництво</option><option value="1.05">Міжнародні економічні відносини</option><option value="1.00">Право</option><option value="1.00">Політологія</option>
+          <option value="1.05">Психологія</option><option value="1.00">Соціологія</option><option value="1.00">Педагогіка</option><option value="1.00">Філологія</option><option value="1.00">Історія</option>
+          <option value="1.00">Філософія</option><option value="1.00">Туризм</option><option value="1.00">Готельно-ресторанна справа</option><option value="1.10">Логістика</option><option value="1.10">Державне управління</option>
+          <option value="1.20">Інформаційні технології</option><option value="1.25">Програмування</option><option value="1.20">Комп’ютерні науки</option><option value="1.20">Кібербезпека</option><option value="1.20">Інженерія ПЗ</option>
+          <option value="1.20">Електроніка</option><option value="1.20">Електротехніка</option><option value="1.25">Механічна інженерія</option><option value="1.25">Будівництво</option><option value="1.25">Архітектура</option>
+          <option value="1.20">Геодезія</option><option value="1.20">Транспорт</option><option value="1.20">Авіація</option><option value="1.20">Енергетика</option><option value="1.20">Харчові технології</option>
+          <option value="1.20">Хімічні технології</option><option value="1.20">Біомедична інженерія</option><option value="1.15">Медицина / реабілітація</option><option value="1.10">Екологія</option><option value="1.10">Інше</option>
+        </select></label>
+        <label>Обсяг <span class="pages-value"><b id="pagesValue">30</b> стор.</span><input id="pages" type="range" min="5" max="120" value="30"></label>
+        <label>Унікальність <span class="pages-value"><b id="uniqueValue">70</b>%</span><input id="uniqueness" type="range" min="40" max="95" step="5" value="70"></label>
+        <div class="degree-discount" id="degreeDiscount"></div>
+        <div class="price-limits" id="priceLimits">Для курсової: від 900 до 2 000 ₴</div>
+        <fieldset><legend>Термін</legend><div class="term-grid"><label><input type="radio" name="days" value="3"><span>3 дні</span></label><label><input type="radio" name="days" value="7"><span>7 днів</span></label><label><input type="radio" name="days" value="14" checked><span>14 днів</span></label><label><input type="radio" name="days" value="21"><span>21+ день</span></label></div></fieldset>
+        <fieldset><legend>Додатково</legend><div class="addons"><label><input type="checkbox" value="500" data-name="Презентація"> Презентація</label><label><input type="checkbox" value="700" data-name="Статистичний аналіз"> Статистичний аналіз</label><label><input type="checkbox" value="900" data-name="Розширена практична частина"> Розширена практична частина</label><label><input type="checkbox" value="300" data-name="Доповідь до захисту"> Доповідь до захисту</label></div></fieldset>
+      </form>
+      <aside class="estimate">
+        <span>ПОПЕРЕДНЯ ВАРТІСТЬ</span><h3 id="summaryType">Курсова робота</h3><p id="summaryMeta">30 сторінок • 70% унікальності • 14 днів</p><div class="estimate-price"><small>орієнтовно</small><strong id="price">900–2 000 ₴</strong></div><p class="note">Точна вартість залежить від методичних вимог, складності практичної частини та вихідних матеріалів.</p><button type="button" class="btn full" id="openOrder">Продовжити до заявки →</button><div class="secure">✓ Без реєстрації &nbsp; · &nbsp; ✓ Конфіденційно</div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="process">
+  <div class="container">
+    <div class="center-head"><div class="eyebrow">ПРОЦЕС</div><h2>Як ми працюємо</h2></div>
+    <div class="steps"><div><b>01</b><h3>Заявка</h3><p>Розраховуєте вартість та описуєте завдання.</p></div><div><b>02</b><h3>Оцінювання</h3><p>Уточнюємо вимоги та підтверджуємо ціну.</p></div><div><b>03</b><h3>Робота</h3><p>Погоджуємо структуру та необхідні етапи.</p></div><div><b>04</b><h3>Перевірка</h3><p>Перевіряємо комплектність та оформлення.</p></div><div><b>05</b><h3>Результат</h3><p>Передаємо готові матеріали у погоджений термін.</p></div></div>
+  </div>
+</section>
+
+<section class="stats"><div class="container stats-grid"><div><strong>11 200+</strong><span>проєктів</span></div><div><strong>8 років</strong><span>досвіду</span></div><div><strong>40+</strong><span>напрямів</span></div><div><strong>100%</strong><span>вчасно</span></div></div></section>
+
+<section class="section" id="examples">
+  <div class="container">
+    <div class="section-head"><div><div class="eyebrow">ПРИКЛАДИ</div><h2>Як виглядає результат</h2></div><p>Демонстраційні кейси, які показують рівень структури, аналітики та оформлення.</p></div>
+    <div class="examples-grid"><article><div class="example-cover">MAGISTER<br><span>87 сторінок</span></div><div class="example-copy"><small>Магістерський проєкт</small><h3>Економіка підприємства</h3><p>19 таблиць · 12 рисунків · статистичний аналіз · презентація</p></div></article><article><div class="example-cover">COURSE<br><span>42 сторінки</span></div><div class="example-copy"><small>Курсовий проєкт</small><h3>Інформаційні технології</h3><p>Програмна реалізація · UML · тестування · документація</p></div></article></div>
+  </div>
+</section>
+
+<section class="section reviews">
+  <div class="container"><div class="center-head"><div class="eyebrow">ВІДГУКИ</div><h2>Що кажуть клієнти</h2></div><div class="review-grid"><blockquote>★★★★★<p>«Дуже сподобалось, що нормально опрацювали таблиці й практичну частину, а не просто додали текст.»</p><footer>Андрій · менеджмент</footer></blockquote><blockquote>★★★★★<p>«Швидко розібралися з методичкою, пояснили структуру і вклалися в погоджений термін.»</p><footer>Марія · психологія</footer></blockquote><blockquote>★★★★★<p>«Зручно, що все узгоджували в Telegram. Окремо допомогли з презентацією та доповіддю.»</p><footer>Олексій · ІТ</footer></blockquote></div></div>
+</section>
+
+<section class="section" id="faq"><div class="container faq-wrap"><div><div class="eyebrow">FAQ</div><h2>Часті запитання</h2><p>Не знайшли відповіді? Напишіть нам у Telegram.</p></div><div class="faq-list">
+  <details><summary>Від чого залежить вартість?</summary><p>Від типу матеріалу, обсягу, спеціальності, терміну, складності практичної частини та додаткових послуг.</p></details>
+  <details><summary>Чи можна звернутися з терміновим завданням?</summary><p>Так. У калькуляторі можна обрати короткий термін; остаточну можливість виконання підтверджуємо після перегляду вимог.</p></details>
+  <details><summary>Що потрібно надіслати для точної оцінки?</summary><p>Тему, методичні рекомендації, затверджений план або завдання, бажаний обсяг і дедлайн.</p></details>
+  <details><summary>Як передати методичку та файли?</summary><p>Після формування заявки сайт відкриє Telegram. Там можна прикріпити DOCX, PDF, фото та інші матеріали.</p></details>
+</div></div></section>
+
+<section class="cta"><div class="container"><div><h2>Є завдання? Дізнайтеся попередню вартість.</h2><p>Без реєстрації. Розрахунок займає менше хвилини.</p></div><a class="btn btn-light" href="#calculator">Розрахувати вартість →</a></div></section>
+</main>
+
+<footer class="footer"><div class="container"><a class="brand" href="#top"><span>Здав</span> — забув</a><p>Допомога з навчальними матеріалами, аналітикою, оформленням і підготовкою до захисту.</p><div><a href="#services">Послуги</a><a href="#calculator">Ціни</a><a href="#faq">FAQ</a></div></div></footer>
+
+<a class="telegram-float" id="telegramFloat" href="#" aria-label="Telegram">✈</a>
+<div class="mobile-cta"><a href="#calculator">Розрахувати вартість</a></div>
+
+<div class="modal" id="orderModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card">
+    <button class="modal-close" data-close>×</button>
+    <div class="eyebrow">ЗАЯВКА</div><h2>Майже готово</h2><p class="modal-sub">Заповніть коротку форму — після натискання відкриється Telegram з готовим текстом заявки.</p>
+    <div class="order-summary" id="orderSummary"></div>
+    <form id="orderForm">
+      <div class="two-cols"><label>Ваше ім’я<input id="clientName" required placeholder="Олександр"></label><label>Дедлайн<input id="deadline" type="date" required></label></div>
+      <label>Тема / короткий опис<input id="topic" required placeholder="Наприклад: Управління фінансовими ризиками..."></label>
+      <label>Навчальний заклад <span>(необов’язково)</span><input id="university" placeholder="КПІ, ЛНУ, ХНУ..."></label>
+      <label>Коментар <span>(необов’язково)</span><textarea id="comment" rows="4" placeholder="Є методичка, затверджений план, потрібні розрахунки..."></textarea></label>
+      <button class="btn full" type="submit">Надіслати в Telegram →</button>
+      <small class="form-hint">Методичку та інші файли можна прикріпити вже безпосередньо в Telegram.</small>
+    </form>
+  </div>
+</div>
+
+<script src="js/script.js?v=20261017-3"></script>
+</body>
+</html>
